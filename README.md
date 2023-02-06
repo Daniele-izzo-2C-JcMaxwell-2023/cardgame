@@ -1,2 +1,4 @@
 # cardgame
-java script tutorial
+## java script tutorial
+
+Daniele Izzo
