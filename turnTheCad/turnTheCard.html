@@ -13,8 +13,13 @@
     <script>
         let carta=document.querySelector("img")
         function gira() {
+        if (carta.src.includes('retro'))
         carta.src="onepiece-card-front.png"
+        else
+        carta.src = "onepiece-card-retro.png"
+
         }
+
     </script>
 </body>
 </html>
