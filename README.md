@@ -6,7 +6,7 @@ Daniele Izzo
 Questo è un gioco basato su un gioco di carte memory che testa la tua memoria giocando
 
 In cosa consiste il gioco:
-bisogna cercare di far girare le coppie di carte uguali una dopo l'altra, così facendo si riceve un punto altrimenti le carte vengono rigirate e devi rigirarle continuando a cercare le coppie
+Bisogna cercare di far girare le coppie di carte uguali una dopo l'altra, così facendo si riceve un punto altrimenti le carte vengono rigirate e devi rigirarle continuando a cercare le coppie
 
 Regole: 
 - per far girare le carte si usa il click sinistro del mouse; mentre il cursore è sulla carta che si vuole far girare
