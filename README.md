@@ -1,7 +1,7 @@
 # cardgame
 ## java script tutorial
 
-Daniele Izzo
+
                                   _**Gioco Carte Memory**_
 Questo è un gioco basato su un gioco di carte memory che testa la tua memoria giocando
 
