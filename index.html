@@ -48,6 +48,10 @@
         table = document.querySelector('#gametable')
         let contatore = document.getElementById("contatore");
         let conto = 0;
+        
+        card.sort(() => Math.random() - 0.5)
+        
+        
         card.forEach(element => {
             table.innerHTML += '<img id="' + element + '" src="back-one-piece-card.png" onclick="gira(this)" />'
             console.log('<img id="' + element + '" back-one-piece-card.png" />')
