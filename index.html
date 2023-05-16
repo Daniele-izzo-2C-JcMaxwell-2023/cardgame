@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        /*Mettiamo le impostazioni delle immagini*/
         img{
             width: 300px;
         }
+        /*Mettiamo le impostazioni del grid-container*/
         .conto { grid-area: conto; }
         .card { grid-area: card; }
         
@@ -31,6 +33,9 @@
     </style>
 </head>
 <body>
+
+    <!-- creamo la griglia dove metteremo le nostre carte per il gioco -->
+    
     <div class="grid-container">
         <div class="conto">
             <div class="container">
@@ -42,20 +47,29 @@
         </div>
     </div>
     <script>
+        //creamo lo script per fare funzionare il codice
         card = ["front-big-mom-card.png", "front-mihawk-card.png", "front-shirohige-card.png", "front-mihawk-card.png", "front-zoro-card.png", "front-shirohige-card.png", "front-zoro-card.png", "front-big-mom-card.png"]
         let NTurnCard = 0;
         let FristCard = null
         table = document.querySelector('#gametable')
         let contatore = document.getElementById("contatore");
         let conto = 0;
-        
+
+        // "card.sort" assegna un ordine casuale alle carte, per non far annoiare l'utente con la stessa disposizione di carte
+
         card.sort(() => Math.random() - 0.5)
         
+        // usiamo il "forEach" per indicare per ogni elemento che mettiamo in seguito
         
-        card.forEach(element => {
+        card.forEach(element =>
+        // "table.innerHTML" serve a cercare il tavolo all'interno dell'HTML
+        {
             table.innerHTML += '<img id="' + element + '" src="back-one-piece-card.png" onclick="gira(this)" />'
             console.log('<img id="' + element + '" back-one-piece-card.png" />')
         });
+
+        // "function" è la funzione che ci permette di girare le carte
+
         function gira(card) {
             NTurnCard++
             console.log(NTurnCard)
@@ -80,4 +94,5 @@
         }
     </script>
 </body>
+</html>
 </html>
