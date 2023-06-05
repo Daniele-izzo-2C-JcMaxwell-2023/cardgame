@@ -19,6 +19,5 @@ Regole:
 
 ![image](https://user-images.githubusercontent.com/124572442/235665299-571d47a0-848f-4f1c-ad86-953debb8ee48.png)
 
-Questo è il link per accedere al sito
-
+Questo è il link per accedere al sito: 
 file:///C:/Users/daniele.izzo/Desktop/index.html
